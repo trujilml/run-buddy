@@ -93,7 +93,7 @@ body {
   }
   .hero-form {
     border: solid 3px #024e76;
-    background-color: rgba(252, 225, 56, 0.8);
+    background-color: rgba(255, 225, 56, 0.8);
     padding: 20px;
     color: #024e76;
     width: 40%;
@@ -190,7 +190,7 @@ body {
   justify-content: space-between;
   border-bottom: 1px solid #39a6bc;
 }
-.step:not(:last-child) {
+.step:last-child {
   border-bottom: none;
 }
 .step h3 {
@@ -392,6 +392,9 @@ body {
   }
   .step-text {
     flex: 100%;
+  }
+  .trainer-bio h3, .trainer-bio h4 {
+    display: block;
   }
 }
 
